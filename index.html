@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>numeros</title>
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>comparador de números</h1>
+        <form id="form-confirm">
+            <label for="valor-a"><b>Valor A:</b></label>
+            <input type="number" id="valor-a" required placeholder="Digite o valor A">
+            <label for="valor-b"><b>Valor B:</b></label>
+            <input type="number" id="valor-b" required placeholder="Digite o valor B">
+            <p class="error-message">O valor B precisa ser maior que o valor A!</p>
+            <button type="submit">Validar</button>
+        </form>
+        <p class="success-message"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
