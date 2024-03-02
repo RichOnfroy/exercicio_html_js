@@ -1,7 +1,6 @@
 const form = document.getElementById('form-confirm');
 const inputA = document.getElementById('valor-a');
 const inputB = document.getElementById('valor-b');
-let formEvalido = false;
 
 form.addEventListener('submit', function (e) {
     e.preventDefault();
